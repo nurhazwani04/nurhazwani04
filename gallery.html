@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Gallery</title>
+</head>
+
+<style>
+body {
+  background-image: url('latar.jpg');
+}
+</style>
+</head>
+
+<body>
+<center><b><h1><p style= "background-color: rgba(255, 99, 160, 0.5); font-size:100px; color:black; font-family: arial;">GALLERY</center></b></h1></center>
+
+<body>
+
+<div>
+<h1 style="border: 2px solid hotpink; text-align: center; font-family: verdana; font-size: 80px; background-color: white;">
+    <span style="color: hotpink;">-MY</span>
+    <span style="color: lightblue;">BELOVED</span>
+    <span style="color: hotpink;">FRIENDS-</span>
+    </div>
+    </h1>
+</body>
+
+<p>
+<b><div style="display: flex; text-align: left; padding-left: 20px; font-size: 250%; color:white; font-family: sans-serif; background-color:rgba(252, 89, 91, 0.8);">
+On this part, I want to share about all the close friends who have been a part of my life. I’ve listed my circle of friends from secondary school as well as those I met at university.&#129294
+<br>
+<br>
+My secondary school friends are mostly people I’ve known since 2017, when we were in Form 1. However, some of them I had already known since primary school, and they happened to go to the same secondary school as me, so our friendship continued to grow. Most of my circle back then consisted of students who stayed in the hostel. It was such a great time because all my secondary school friends were kind, helpful, and absolutely hilarious.Even though it’s harder to meet up now since everyone is busy with their own path,some studying at different universities and with mismatched holidays but it doesn’t change the fact that the memories we created during school are still fresh in my mind.
+<br>
+<br>
+Next, my friends at university consist of my classmates and, most importantly, my roommates. It’s really fun being friends with them because we’re all on the same wavelength. Especially my roommates,they’re incredibly understanding and caring toward me.Being friends with them has also given me a lot of new knowledge about their home states, as most of my university friends come from different parts of the country. It’s been such a valuable experience for me!
+</b>
+</div>
+
+<center><img src="friend.jpg" alt="friend" width="100%" height="60%"></center>
+
+
+
+<div style="display: flex; justify-content: center; gap: 30px; padding: 30px">
+
+<div style="background-color: lightpink; padding: 50px; border-radius: 20px; box-shadow: darkgrey; text-align: center;">
+<div>
+  <button onclick="playPause('video1')">Play/Pause</button> 
+  <button onclick="makeBig('video1')">Big</button>
+  <button onclick="makeSmall('video1')">Small</button>
+  <button onclick="makeNormal('video1')">Normal</button>
+  <br><br>
+  <video id="video1" width="420">
+    <source src="unifriend.mp4" type="video/mp4">
+    <source src="unifriend.ogg" type="video/ogg">
+    Your browser does not support HTML video.
+  </video>
+</div>
+<h2 style="margin-top: 20px;">
+<b>UNI FRIEND&#129294</b>
+<br>
+<b><span style="font-size: 25px; color: black;">&#128205 Nature,Nibbles and Nostalgia</span></b></h2>
+</div>
+
+
+<div style="background-color: lightpink; padding: 50px; border-radius: 20px; box-shadow: darkgrey; text-align: center;">
+<div>
+  <button onclick="playPause('video2')">Play/Pause</button> 
+  <button onclick="makeBig('video2')">Big</button>
+  <button onclick="makeSmall('video2')">Small</button>
+  <button onclick="makeNormal('video2')">Normal</button>
+  <br><br>
+  <video id="video2" width="420">
+    <source src="schoolfriend.mp4" type="video/mp4">
+    <source src="schoolfriend.ogg" type="video/ogg">
+    Your browser does not support HTML video.
+  </video>
+</div>
+<h2 style="margin-top: 20px;">
+<b>SCHOOLFRIEND&#129294</b>
+<br>
+<b><span style="font-size: 25px; color:black;">&#128205 Memory Lane</span></b>
+</h2>
+</div>
+</div>
+
+<script>
+function playPause(videoId) { 
+  var myVideo = document.getElementById(videoId);
+  if (myVideo.paused) 
+    myVideo.play(); 
+  else 
+    myVideo.pause(); 
+} 
+
+function makeBig(videoId) { 
+  var myVideo = document.getElementById(videoId);
+  myVideo.width = 560; 
+} 
+
+function makeSmall(videoId) { 
+  var myVideo = document.getElementById(videoId);
+  myVideo.width = 320; 
+} 
+
+function makeNormal(videoId) { 
+  var myVideo = document.getElementById(videoId);
+  myVideo.width = 420; 
+} 
+</script>
+
+ 
+
+<br>
+<br>
+
+<div>
+<h1 style="border: 2px solid hotpink; text-align: center; font-family: verdana; font-size: 80px; background-color: white;">
+    <span style="color: hotpink;">-MY</span>
+    <span style="color: lightblue;">BELOVED</span>
+    <span style="color: hotpink;">FAMILY-</span>
+    </div>
+    </h1>
+
+<p>
+<b><div style="display: flex; text-align: left; padding-left: 20px; font-size: 300%; color:white; font-family: sans-serif; background-color:rgba(252, 89, 91, 0.8);">
+This section is a special gallery dedicated to my beloved family, including my parents, siblings, and of course, my adorable nieces and nephews. All the beautiful memories with them are captured here!&#x1F970;</p>
+</b>
+</div>
+
+<center><img src="familyrecap.jpg" alt="family" width="100%" height="30%"></center>
+<br>
+<br>
+<div style="display: flex; justify-content: center; gap: 30px; padding: 30px">
+
+<div style="background-color: lightpink; padding: 50px; border-radius: 20px; box-shadow: darkgrey; text-align: center;">
+
+<video width="700" height="580" controls>
+  <source src="familyvideo.mp4" type="video/mp4">
+  <source src="familyvideo.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+</video>
+</div>
+</div>
+
+<div>
+<h1 style="border: 2px solid hotpink; text-align: center; font-family: verdana; font-size: 80px; background-color: white;">
+    <span style="color: hotpink;">-RANDOM THINGS-</span>
+    </div>
+    </h1>
+
+<p>
+<b><div style="display: flex; text-align: left; padding-left: 20px; font-size: 300%; color:white; font-family: sans-serif; background-color:rgba(252, 89, 91, 0.8);">
+This gallery is a mix of random things especially videos of moments I’ve captured to keep as memories.&#x1F90D;</p>
+</b>
+</div>
+
+<div style="display: flex; justify-content: center; gap: 30px; padding: 30px">
+
+<div style="background-color: lightpink; padding: 50px; border-radius: 20px; box-shadow: darkgrey; text-align: center;">
+
+  <video id="video1" width="420" controls>
+    <source src="nature.mp4" type="video/mp4">
+    <source src="nature.ogg" type="video/ogg">
+    Your browser does not support HTML video.
+  </video>
+
+<h2 style="margin-top: 20px;">
+<b><span style="font-size: 25px; color: black;">Green vibes, Clear skies &#127811;</span></b></h2>
+</div>
+
+<div style="background-color: lightpink; padding: 50px; border-radius: 20px; box-shadow: darkgrey; text-align: center;">
+
+  <video id="video2" width="420" controls>
+    <source src="random.mp4" type="video/mp4">
+    <source src="random.ogg" type="video/ogg">
+    Your browser does not support HTML video.
+  </video>
+
+<h2 style="margin-top: 20px;">
+<b><span style="font-size: 25px; color: black;">Collecting moments, not things &#127752;</span></b></h2>
+</div>
+
+
+ 
+</body> 
+</html>
